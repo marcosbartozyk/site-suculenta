@@ -1,0 +1,200 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(231, 230, 230);
+}
+
+#titulo {
+    padding-top: 20px;
+    padding-left: 100px;
+    font-style: italic;
+}
+
+#subtitulo {
+    text-decoration: underline;
+    color: #2c2c2c;
+}
+
+#titulocultivar {
+    color: #202020;
+}
+
+#titulocultivar2 {
+    color: #202020;
+    font-style: italic;
+}
+
+#subtitulocultivo {
+    color: #353535;
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 30px;
+    text-decoration: underline;
+}
+
+#pagecultivo {
+    padding-left: 320px;
+}
+
+#texto {
+    color: red;
+    font-size: medium;
+    text-decoration: line-through;
+    text-align: left;
+    padding-left: 20px;
+}
+
+#texto2 {
+    color: rgb(0, 182, 0);
+    text-align: left;
+    padding-left: 50px;
+    font-size: large;
+}
+
+#pix {
+    padding-left: 100px;
+}
+
+#suculenta {
+    height: 150px;
+    border-radius: 5px;
+}
+
+#qrcode {
+    width: 650px;
+    padding-top: 15px;
+}
+
+#tituloqrcode {
+    color: #202020;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+#faintw {
+    padding-bottom: 17px;
+    display: inline-flex;
+    color: white;
+    padding: 10px;
+}
+
+.cabecalho {
+    color: white;
+    padding: 60px;
+    background-image: url(img/varias_suculentas.jpg);
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: inline-flex;
+}
+
+.titulo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+li {
+    list-style: none;
+    font-size: medium;
+    font-style: italic;
+    padding-top: 30px;
+    padding-left: 180px;
+    font-weight: bold;
+    display: inline-flex;
+}
+
+.linha:hover{
+    text-decoration: underline;
+    transform: scale(1.03);
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+main {
+    text-align: center;
+    padding-left: 17%;
+    padding-right: 17%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    color: #464646;
+}
+
+.pri {
+    padding-bottom: 30px;
+    font-size: larger;
+    color: #464646;
+    text-align: center;
+}
+
+.seg {
+    padding-top: 15px;
+    font-size: larger;
+    color: #464646;
+    text-align: center;
+}
+
+.brilho:hover {
+    color: rgb(36, 36, 255);
+    transform: scale(1.15);
+    display: inline-flex;
+}
+
+.destaque {
+    font-weight: bold;
+    color: black;
+}
+
+.cartao-conteudo {
+    text-align: center;
+}
+
+.cartoes-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.cartao {
+    width: 30%;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.cartao:hover {
+    transform: scale(1.1);
+}
+
+.quadrado {
+    box-shadow: 10px 10px 7px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;    
+}
+
+.paragrafo {
+    text-align: left;
+    font-size: large;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: medium;
+    font-style: italic;
+}
